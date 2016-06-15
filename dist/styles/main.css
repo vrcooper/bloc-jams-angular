@@ -10,9 +10,15 @@ html {
 }
 
 body {
+    background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
     font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
     color: white; /* sets the text color to white*/
     min-height: 100%; /* says the height of the body must be, at minimum, 100% of the window */
+    padding-bottom: 200px;
 }
 
 
