@@ -16,13 +16,22 @@
 </head>
 <body>
     <nav class="navbar"> <!-- navigation bar -->
-        <a href="index.html" class="logo">
+    <!--  <a href="index.html" class="logo">
             <img src="assets/images/bloc_jams_logo.png" alt="bloc jams logo" class="logo">
-
-        </a>
-        <div class="links-container">
-            <a href="collection.html" class="navbar-link">collection</a>
-        </div>
+      </a> -->
+        
+     <a ui-sref="landing" class="=logo">
+        <image src="assets/images/bloc_jams_logo.png" alt="bloc jams logo" class="logo"></image>
+     </a>   
+       
+      <div class="links-container">
+          <!--  <a href="collection.html" class="navbar-link">collection</a> -->
+          <a ui-sref="collection" class="navbar-link">collection</a>
+          
+      </div> 
+        
+        
+        
     </nav>
     
     <ui-view></ui-view>
